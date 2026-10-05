@@ -1,0 +1,272 @@
+{
+  "version": 2,
+  "exportedAt": "2026-09-28T21:12:17.752Z",
+  "data": {
+    "student": {
+      "name": "renanbryan",
+      "ra": "00000000000 SP"
+    },
+    "selectedSubject": "Modelagem de Banco de Dados",
+    "weeks": {
+      "Programação Front-End": [
+        {
+          "number": 15,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana15front.git"
+        },
+        {
+          "number": 16,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana16front.git"
+        },
+        {
+          "number": 17,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana17front.git"
+        },
+        {
+          "number": 18,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana18front.git"
+        },
+        {
+          "number": 19,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana19front.git"
+        },
+        {
+          "number": 20,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana20front.git"
+        },
+        {
+          "number": 21,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana21front..git"
+        }
+      ],
+      "Programação Back-End": [
+        {
+          "number": 15,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/seman15back.git"
+        },
+        {
+          "number": 16,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana16back..git"
+        },
+        {
+          "number": 17,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana17back.git"
+        },
+        {
+          "number": 18,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana18back.git"
+        },
+        {
+          "number": 19,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana19back.git"
+        },
+        {
+          "number": 20,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana20back..git"
+        },
+        {
+          "number": 21,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana21back.git"
+        }
+      ],
+      "Versionamento de Códigos": [
+        {
+          "number": 15,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana15-modulo-protuario.git"
+        },
+        {
+          "number": 16,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana16versionamento.git"
+        },
+        {
+          "number": 17,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana17versionamento.git"
+        },
+        {
+          "number": 18,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana18versionamento.git"
+        },
+        {
+          "number": 19,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana19versionamento.git"
+        },
+        {
+          "number": 20,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana20versionamento.git"
+        },
+        {
+          "number": 21,
+          "status": "VAZIO",
+          "description": ""
+        }
+      ],
+      "Inteligência Artificial": [
+        {
+          "number": 15,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana15inteligencia.git"
+        },
+        {
+          "number": 16,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana16inteligencia.git"
+        },
+        {
+          "number": 17,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana17inteligencia.git"
+        },
+        {
+          "number": 18,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana18nteligencia.git"
+        },
+        {
+          "number": 19,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana19inteligencia.git"
+        },
+        {
+          "number": 20,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana20inteligencia.git"
+        },
+        {
+          "number": 21,
+          "status": "VAZIO",
+          "description": ""
+        }
+      ],
+      "Projeto Multidisciplinar": [
+        {
+          "number": 15,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana15projeto.git"
+        },
+        {
+          "number": 16,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana16projeto.git"
+        },
+        {
+          "number": 17,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana17projeto.git"
+        },
+        {
+          "number": 18,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana18projeto..git"
+        },
+        {
+          "number": 19,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana19projeto.git"
+        },
+        {
+          "number": 20,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana20projeto.git"
+        },
+        {
+          "number": 21,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana21projeto.git"
+        }
+      ],
+      "Modelagem de Banco de Dados": [
+        {
+          "number": 15,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana15modelagem.git"
+        },
+        {
+          "number": 16,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana16modelagem.git"
+        },
+        {
+          "number": 17,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana17modelagem.git"
+        },
+        {
+          "number": 18,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana18modelagem.git"
+        },
+        {
+          "number": 19,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana19modelagem.git"
+        },
+        {
+          "number": 20,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana20modelagem.git"
+        },
+        {
+          "number": 21,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana21modelagem.git"
+        }
+      ],
+      "Programação Mobile": [
+        {
+          "number": 15,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana15mobile.git"
+        },
+        {
+          "number": 16,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana16mobile.git"
+        },
+        {
+          "number": 17,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana17mobile.git"
+        },
+        {
+          "number": 18,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana18mobile..git"
+        },
+        {
+          "number": 19,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana19mobile.git"
+        },
+        {
+          "number": 20,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana20mobile.git"
+        },
+        {
+          "number": 21,
+          "status": "CONCLUÍDO",
+          "description": "https://github.com/renanbryan69/semana21mobile.git"
+        }
+      ]
+    }
+  }
+}

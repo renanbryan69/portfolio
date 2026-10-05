@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Geral 3º Bimestre</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TELA DE LOGIN -->
+    <div id="loginScreen" class="login-screen">
+
+        <div class="login-box">
+
+            <h1>Portfólio Escolar</h1>
+
+            <p>Entre para acessar seu portfólio</p>
+
+            <input
+                type="text"
+                id="loginName"
+                placeholder="Nome do aluno"
+            >
+
+            <input
+                type="password"
+                id="loginPassword"
+                placeholder="Senha"
+            >
+
+            <button onclick="entrar()">Entrar</button>
+
+            <small>
+                Qualquer nome e senha podem ser utilizados
+            </small>
+
+        </div>
+
+    </div>
+
+
+    <!-- SISTEMA -->
+    <div id="app" class="app hidden">
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="content">
+
+            <header>
+
+                <!-- TÍTULO QUE MUDA DE ACORDO COM A MATÉRIA -->
+                <h1 id="pageTitle">
+                    Portfólio Geral 3º Bimestre:
+                    Programação Front-End
+                </h1>
+
+                <p>
+                    Cronograma da Atividade:
+                </p>
+
+            </header>
+
+
+            <!-- SEMANAS -->
+            <section id="weeks" class="weeks"></section>
+
+        </main>
+
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+
+            <div class="student-card">
+
+                <div class="avatar">
+                    RB
+                </div>
+
+                <div>
+
+                    <strong id="studentName">
+                        Renan Bryan
+                    </strong>
+
+                    <span>
+                        R.A.: 00000000000 SP
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <h3>
+                DISCIPLINAS
+            </h3>
+
+
+            <div id="subjects" class="subjects"></div>
+
+
+            <button
+                class="logout"
+                onclick="sair()"
+            >
+                Sair do Sistema
+            </button>
+
+
+            <h3>
+                GERENCIAMENTO DE DADOS
+            </h3>
+
+
+            <!-- EXPORTAR BACKUP -->
+            <button onclick="exportarBackup()">
+                Exportar Backup
+            </button>
+
+
+            <!-- IMPORTAR BACKUP -->
+            <label class="import-button">
+
+                Importar Backup
+
+                <input
+                    type="file"
+                    id="importFile"
+                    accept=".json"
+                    onchange="importarBackup(event)"
+                >
+
+            </label>
+
+        </aside>
+
+    </div>
+
+
+    <!-- MODAL DE EDIÇÃO -->
+    <div id="modal" class="modal hidden">
+
+        <div class="modal-box">
+
+            <h2 id="modalTitle">
+                Editar semana
+            </h2>
+
+
+            <!-- DESCRIÇÃO -->
+            <label>
+                Descrição
+            </label>
+
+            <textarea
+                id="weekDescription"
+                rows="6"
+                placeholder="Digite o que foi feito nesta semana..."
+            ></textarea>
+
+
+            <!-- LINK DO GITHUB -->
+            <label for="weekGithub">
+                Link do GitHub
+            </label>
+
+            <input
+                type="url"
+                id="weekGithub"
+                placeholder="https://github.com/seuusuario/seurepositorio"
+            >
+
+
+            <!-- STATUS -->
+            <label>
+                Status
+            </label>
+
+            <select id="weekStatus">
+
+                <option value="CONCLUÍDO">
+                    CONCLUÍDO
+                </option>
+
+                <option value="EM ANDAMENTO">
+                    EM ANDAMENTO
+                </option>
+
+                <option value="VAZIO">
+                    VAZIO
+                </option>
+
+            </select>
+
+
+            <div class="modal-actions">
+
+                <button onclick="fecharModal()">
+                    Cancelar
+                </button>
+
+                <button
+                    class="save"
+                    onclick="salvarSemana()"
+                >
+                    Salvar
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
